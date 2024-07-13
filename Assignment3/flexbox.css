@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    min-height: 200px;
+}
+
+.col-1{
+    background-color: antiquewhite;
+}
+
+.col-2{
+    background-color: powderblue;
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+}
+
+.content > article{
+    min-height: 300px;
+    flex:5;
+}
+
+.content > aside{
+    flex:5;
+}
+
+header,footer{
+    background:peachpuff;
+    height: 100px;
+}
+
+header,footer,article,aside{
+    padding:1em;
+}
