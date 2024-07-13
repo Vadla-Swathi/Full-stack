@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttonstyles</title>
+    <style>
+        .button1,.button2,.button3{
+            background-color: purple;
+            color:white;
+            border: none;
+            font-size:16px;
+            padding:10px;
+            border-radius: 20px 20px 20px 20px;
+            margin:0;
+            text-align: center;
+            cursor:pointer;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        .button1:hover{
+            transition:3s;
+            color:black;
+            box-shadow: 0px 0px 12px 4px;
+        }
+        .button2:hover {
+            cursor:not-allowed;
+            opacity:0.4;
+        }
+        .button3:hover{
+            transform: translateY(-5px);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <button class="button1">Shadow Button</button>
+    <button class="button2">Disable Button</button>
+    <button class="button3">Animated Button</button>
+</body>
+</html>
