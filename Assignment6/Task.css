@@ -9,17 +9,12 @@ body{
 }
 
 .container{
-    text-align:center;
-}
-
-h1{
-    margin:20px 0;
-}
-
-input {
-    margin: 10px 0;
-    padding: 10px;
-    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+    width:400px;
+    text-align: center;
 }
 
 ul{
@@ -35,7 +30,16 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:300px;
+}
+
+li.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+
+li.completed{
+    text-decoration: line-through;
+    color: grey;
 }
 
 button{
@@ -45,5 +49,16 @@ button{
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    margin:10px 0;
+}
+
+button.delete{
+    background-color: red;
+    margin-left: 10px;
+}
+
+input[type="text"]{
+    width:calc(100% - 200px);
+    padding:10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
 }
