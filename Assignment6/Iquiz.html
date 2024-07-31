@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Iquiz.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Quiz Time!</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <p>What is the capital of Telangana?</p>
+            <input type="radio" id="hyd" name="q1" value="Hyderabad">
+            <label for="hyd">Hyderabad</label>
+            <input type="radio" id="sc" name="q1" value="Secunderabad">
+            <label for="sc">Secunderabad</label>
+        </div>
+        <div class="question">
+            <p>Who is the prime minister of India?</p>
+            <input type="radio" id="modi" name="q2" value="Narendra Modi">
+            <label for="modi">Narendra Modi</label>
+            <input type="radio" id="dm" name="q2" value="Draupadi Murmu">
+            <label for="dm">Draupadi Murmu</label>
+        </div>
+        <div class="question">
+            <p>What is the full form of USA?</p>
+            <input type="radio" id="usa" name="q3" value="United States of America">
+            <label for="usa">United States of America</label>
+            <input type="radio" id="USA" name="q3" value="United States Of America">
+            <label for="USA">United States Of Australia </label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+    </div>
+    <script src="Iquiz.js"></script>
+</body>
+</html>
